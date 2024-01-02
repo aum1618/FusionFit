@@ -9,7 +9,7 @@ export const AppContext = createContext();
 
 export const AppContextProvider = ({children}) => {
   // State variables for theme, locale, and colors
-  const [theme, setTheme] = useState(themes.dark);
+  const [theme, setTheme] = useState(themes.light);
   const [locale, setLocale] = useState(locales.en_US);
   const color = theme === themes.dark ? colors.dark : colors.light;
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, View, StyleSheet} from 'react-native';
+import {getShadow} from '@shared/styles';
 
 /**
  * CircularImageWrapper component displays an image within a circular container.
@@ -26,6 +27,7 @@ export const CircularImageWrapper = ({path, radius}) => {
 const styles = StyleSheet.create({
   container: {
     overflow: 'hidden',
+    ...getShadow(),
   },
   image: {
     width: '100%',

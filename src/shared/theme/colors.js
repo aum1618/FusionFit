@@ -17,6 +17,8 @@ const colors = {
     border: palette.grayLight,
     shadow: 'rgba(0, 0, 0, 0.1)',
     outline: palette.grayDark,
+    black: palette.black,
+    white: palette.white,
   },
   dark: {
     background: palette.darkBackground,
@@ -34,6 +36,8 @@ const colors = {
     border: '#333333',
     shadow: 'rgba(255, 255, 255, 0.1)',
     outline: palette.grayLight,
+    black: palette.black,
+    white: palette.white,
   },
 };
 
